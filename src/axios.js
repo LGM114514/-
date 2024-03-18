@@ -6,7 +6,7 @@ import axios from 'axios'
 
 // 创建一个 Axios 实例
 const instance = axios.create({
-  baseURL: 'http://localhost:3000' // 替换为你的后端 API 地址
+  baseURL: 'http://localhost:3000' // 后端 API 地址
 })
 
 // 请求拦截器
